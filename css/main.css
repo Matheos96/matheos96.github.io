@@ -1,0 +1,131 @@
+body,
+html {
+    height: 100%;
+
+}
+
+.bgScroll {
+    background-attachment: fixed;
+
+    background-image: url("background.jpg");
+
+    height: auto;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg {
+
+    background-image: url("background.jpg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+h1.center {
+    text-align: center;
+    font-family: Courier;
+    color: white;
+    text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+
+}
+
+@media screen and (min-width: 451px) {
+    h1.center {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1.center {
+        font-size: 70px;
+    }
+
+}
+
+h2.center {
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+a.navigation {
+    color: white;
+    width: inherit;
+    height: inherit;
+    display: block;
+}
+
+a.navigation:hover {
+    text-decoration: none;
+}
+
+div.active {
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    padding: 0;
+}
+
+div.unactive {
+    padding: 4px;
+}
+
+div.unactive:hover {
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    padding: 0;
+}
+
+div.top-buffer {
+    margin-top: 50px;
+}
+
+footer.stickyRelative {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+footer.sticky {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+img.googlePlay {
+    display: block;
+}
+
+figure.inline {
+    display: inline-block;
+}
+
+.centered {
+    text-align: center;
+}
+
+a.black {
+    color: black;
+}
+nav .navbar-nav li a {
+  color: white !important;
+  }
+nav .navbar-nav li a:hover {
+  color: lightgray!important;
+  }

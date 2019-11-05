@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Matheos Mattsson | Home</title>
+    <title>Matheos Mattsson | Contact</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
             <h1 class="center">Matheos Mattsson</h1>
             <div class="row">
 
-                <div class="col active">
+                <div class="col unactive">
                     <h2 class="center"><a href="index.html" class="navigation">Home</a></h2>
                 </div>
 
@@ -29,7 +29,7 @@
                     <h2 class="center"><a href="projects.html" class="navigation">Projects</a></h2>
                 </div>
 
-                <div class="col unactive">
+                <div class="col active">
                     <h2 class="center"><a href="contact.html" class="navigation">Contact</a></h2>
                 </div>
 
@@ -41,28 +41,32 @@
 
             <div class="row top-buffer"></div>
             <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-6">
-                    <div class="card border-dark mb-3 text-center">
+                <div class='col-lg-3'></div>
+                <div class='col-lg-6'>
+                    <div class="card border-dark mb-3">
                         <div class="card-body">
-                            <h5 class="card-title">About me</h5>
-                            20-something Finnish Computer Engineering student with a weird name and a passion for coding.<br />
-                            My main programming knowledge is in Java and Python but I also have basic knowledge in many of the other popular programming languages such as C, C# and C++. When it comes to web-development I am selftaught and know HTML5, Django and PHP well, as well as basic knowledge in Javascript.<br />
-                            All my personal projects can be found by visiting the projects tab as well as links to their download locations. Source code to some of them is available on my GitHub page which is also linked above.<br /><br />
-                            Thanks for visiting :)
+                            <h5 class="card-title centered">Contact</h5>
+                            <form action="https://formspree.io/xzbpnong" method="POST" id="sendForm">
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" name="name" required class="form-control" placeholder="Enter your name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email adress:</label>
+                                    <input type="email" name="email" required class="form-control" placeholder="Enter your email adress">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message:</label>
+                                    <textarea class="form-control" placeholder="Enter your message" rows="5" name="message" required form="sendForm"></textarea>
+                                    <br />
+                                    <button type="submit" class="btn btn-primary mb-2">Send</button>
+                                </div>
+
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3"></div>
 
-            </div>
-
-            <div class="row">
-                <div class="col-sm"></div>
-                <div class="col-sm centered">
-                    <a href="https://www.buymeacoffee.com/Matheos" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;"></a>
-                </div>
-                <div class="col-sm"></div>
             </div>
         </div>
 
@@ -72,7 +76,6 @@
             </div>
         </footer>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
