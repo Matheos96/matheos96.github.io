@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link + button remover for HTML source code</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html, body, form, main {
+            height: 100%;
+        }
+        .flexbox {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            justify-content:space-between;
+            align-items: center;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px;
+        }
+        #button {
+            font-size: 20px;
+            width: 10%;
+        }
+        #website {
+            color:black;
+        }
+        #website:visited{
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <div class="content">
+            <h1>Link + button remover for HTML source code</h1><br />
+            <p>Paste your HTML source code in the text area. Then click the button to remove all link and button tags.</p>
+            <textarea id="textarea" rows="45" cols="200">
+            </textarea>
+            <br />
+            <button id="button" onclick="remove()">Remove</button>
+            <br />
+            <p>Click inside the text area and CTRL+A to mark all text and then CTRL+C to copy the modified source code.</p>
+            
+        </div>
+    
+        <footer>
+            Copyright &copy; 2020 <a id="website" href="https://matheos96.github.io/">Matheos Mattsson</a>
+        </footer>
+        <script type="text/javascript" src="link_remover.js"></script>
+    </div> 
+</body>
+</html>
