@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/beermonitor/static/css/main.cc9b46c4.chunk.css",
+    "main.js": "/beermonitor/static/js/main.e9b2bdf3.chunk.js",
+    "main.js.map": "/beermonitor/static/js/main.e9b2bdf3.chunk.js.map",
+    "runtime-main.js": "/beermonitor/static/js/runtime-main.b81d1cd1.js",
+    "runtime-main.js.map": "/beermonitor/static/js/runtime-main.b81d1cd1.js.map",
+    "static/js/2.b1f76968.chunk.js": "/beermonitor/static/js/2.b1f76968.chunk.js",
+    "static/js/2.b1f76968.chunk.js.map": "/beermonitor/static/js/2.b1f76968.chunk.js.map",
+    "index.html": "/beermonitor/index.html",
+    "static/css/main.cc9b46c4.chunk.css.map": "/beermonitor/static/css/main.cc9b46c4.chunk.css.map",
+    "static/js/2.b1f76968.chunk.js.LICENSE.txt": "/beermonitor/static/js/2.b1f76968.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b81d1cd1.js",
+    "static/js/2.b1f76968.chunk.js",
+    "static/css/main.cc9b46c4.chunk.css",
+    "static/js/main.e9b2bdf3.chunk.js"
+  ]
+}
